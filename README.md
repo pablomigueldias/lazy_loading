@@ -1,30 +1,19 @@
-# Lazy Loading com IntersectionObserver
+# 🖼️ Lazy Loading com Intersection Observer API
 
-Este projeto é um exemplo prático de como implementar **lazy loading** em imagens utilizando o objeto `IntersectionObserver`. O objetivo é otimizar o carregamento de imagens em uma página, carregando-as apenas quando entram na área visível do usuário, melhorando a performance e experiência do usuário.
+Este projeto foca na otimização de performance front-end, utilizando técnicas modernas para o carregamento assíncrono de mídia.
 
-## 📚 Tecnologias Utilizadas
+## ⚙️ O que é Lazy Loading?
+É uma estratégia de design que retarda o carregamento de recursos não críticos (como imagens) no momento do carregamento da página. Em vez disso, esses recursos são carregados apenas quando o usuário realmente precisa vê-los.
 
-- **HTML5**: Estruturação da página.
-- **CSS3**: Estilos e layout.
-- **JavaScript**: Lógica de interatividade e implementação do `IntersectionObserver`.
+## 🚀 Funcionalidades
+- **Otimização de Largura de Banda:** Redução do consumo de dados inicial da página.
+- **Intersection Observer API:** Monitoramento nativo do navegador para detectar a visibilidade de elementos sem sobrecarregar a Thread principal.
+- **UX Fluida:** As imagens aparecem suavemente conforme o scroll, evitando travamentos.
 
-## 🔍 Funcionalidades
+## 🛠️ Tecnologias
+- **JavaScript Moderno:** Implementação da API de Observação.
+- **HTML5 (Data Attributes):** Uso de `data-src` para gerenciar o estado das imagens.
+- **CSS3:** Skeleton screens/placeholders para manter o layout estável.
 
-- **Lazy Loading**: As imagens na página são carregadas de forma eficiente apenas quando estão prestes a aparecer no viewport.
-- **IntersectionObserver**: Utilizado para detectar quando as imagens entram na área visível da janela do navegador.
-
-## 🚀 Como Funciona?
-
-1. Quando a página é carregada, as imagens não são carregadas imediatamente, exceto aquelas que já estão visíveis na tela.
-2. À medida que o usuário faz o scroll pela página, o `IntersectionObserver` detecta quando uma imagem está prestes a entrar na área visível (viewport).
-3. Nesse momento, o navegador carrega a imagem, exibindo-a ao usuário.
-
-## 📦 Como Rodar o Projeto Localmente
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-## 🖥️ Acesse o Projeto
-
-O projeto está hospedado no Vercel e pode ser acessado através do seguinte link: [Lazy Loading com IntersectionObserver](https://lazy-loading-inky.vercel.app/)
+---
+🔗 **Veja a performance na prática:** [Link do Vercel](https://lazy-loading-intersection-observer-six.vercel.app/)
