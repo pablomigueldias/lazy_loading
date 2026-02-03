@@ -16,4 +16,4 @@ Este projeto foca na otimização de performance front-end, utilizando técnicas
 - **CSS3:** Skeleton screens/placeholders para manter o layout estável.
 
 ---
-🔗 **Veja a performance na prática:** [Link do Vercel](https://lazy-loading-intersection-observer-six.vercel.app/)
+🔗 **Veja a performance na prática:** [Link do Vercel](https://lazy-loading-inky.vercel.app/)
